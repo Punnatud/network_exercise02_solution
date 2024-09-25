@@ -1,0 +1,169 @@
+Enter the number of nodes : Enter the cost matrix :
+Initial Tables
+Routing table for node A:
+Destination	Distance	Next Hop
+A		  0		 A
+B		  99		 B
+C		  99		 C
+D		  6		 D
+S		  2		 S
+
+Routing table for node B:
+Destination	Distance	Next Hop
+A		  99		 A
+B		  0		 B
+C		  1		 C
+D		  99		 D
+S		  2		 S
+
+Routing table for node C:
+Destination	Distance	Next Hop
+A		  99		 A
+B		  1		 B
+C		  0		 C
+D		  7		 D
+S		  99		 S
+
+Routing table for node D:
+Destination	Distance	Next Hop
+A		  6		 A
+B		  99		 B
+C		  7		 C
+D		  0		 D
+S		  2		 S
+
+Routing table for node S:
+Destination	Distance	Next Hop
+A		  2		 A
+B		  2		 B
+C		  99		 C
+D		  2		 D
+S		  0		 S
+
+====================================================
+Iteration 1 Time = 100
+Routing table for node A:
+Destination	Distance	Next Hop
+A		  0		 A
+B		  4		 S
+C		  13		 D
+D		  4		 S
+S		  2		 S
+
+Routing table for node B:
+Destination	Distance	Next Hop
+A		  4		 S
+B		  0		 B
+C		  1		 C
+D		  4		 S
+S		  2		 S
+
+Routing table for node C:
+Destination	Distance	Next Hop
+A		  5		 B
+B		  1		 B
+C		  0		 C
+D		  5		 B
+S		  3		 B
+
+Routing table for node D:
+Destination	Distance	Next Hop
+A		  4		 S
+B		  4		 S
+C		  7		 C
+D		  0		 D
+S		  2		 S
+
+Routing table for node S:
+Destination	Distance	Next Hop
+A		  2		 A
+B		  2		 B
+C		  3		 B
+D		  2		 D
+S		  0		 S
+
+====================================================
+Iteration 2 Time = 200
+Routing table for node A:
+Destination	Distance	Next Hop
+A		  0		 A
+B		  4		 S
+C		  5		 S
+D		  4		 S
+S		  2		 S
+
+Routing table for node B:
+Destination	Distance	Next Hop
+A		  4		 S
+B		  0		 B
+C		  1		 C
+D		  4		 S
+S		  2		 S
+
+Routing table for node C:
+Destination	Distance	Next Hop
+A		  5		 B
+B		  1		 B
+C		  0		 C
+D		  5		 B
+S		  3		 B
+
+Routing table for node D:
+Destination	Distance	Next Hop
+A		  4		 S
+B		  4		 S
+C		  5		 S
+D		  0		 D
+S		  2		 S
+
+Routing table for node S:
+Destination	Distance	Next Hop
+A		  2		 A
+B		  2		 B
+C		  3		 B
+D		  2		 D
+S		  0		 S
+
+====================================================
+Iteration 3 Time = 300
+Routing table for node A:
+Destination	Distance	Next Hop
+A		  0		 A
+B		  4		 S
+C		  5		 S
+D		  4		 S
+S		  2		 S
+
+Routing table for node B:
+Destination	Distance	Next Hop
+A		  4		 S
+B		  0		 B
+C		  1		 C
+D		  4		 S
+S		  2		 S
+
+Routing table for node C:
+Destination	Distance	Next Hop
+A		  5		 B
+B		  1		 B
+C		  0		 C
+D		  5		 B
+S		  3		 B
+
+Routing table for node D:
+Destination	Distance	Next Hop
+A		  4		 S
+B		  4		 S
+C		  5		 S
+D		  0		 D
+S		  2		 S
+
+Routing table for node S:
+Destination	Distance	Next Hop
+A		  2		 A
+B		  2		 B
+C		  3		 B
+D		  2		 D
+S		  0		 S
+
+ends in 3 iterations and using Time = 300

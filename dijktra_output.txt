@@ -1,0 +1,48 @@
+Step 0: Order of vertices processed: A 
+Distance vector: 
+A: 0 B: 4 D: 1 E: 5 F: 1061109567 G: 1061109567 
+--------------------------------
+Step 1: Order of vertices processed: A D 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 9 G: 1061109567 
+--------------------------------
+Step 2: Order of vertices processed: A D B 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 9 G: 4 
+--------------------------------
+Step 3: Order of vertices processed: A D B B 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 9 G: 4 
+--------------------------------
+Step 4: Order of vertices processed: A D B B E 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 8 G: 4 
+--------------------------------
+Step 5: Order of vertices processed: A D B B E G 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 6 G: 4 
+--------------------------------
+Step 6: Order of vertices processed: A D B B E G E 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 6 G: 4 
+--------------------------------
+Step 7: Order of vertices processed: A D B B E G E F 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 6 G: 4 
+--------------------------------
+Step 8: Order of vertices processed: A D B B E G E F F 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 6 G: 4 
+--------------------------------
+Step 9: Order of vertices processed: A D B B E G E F F F 
+Distance vector: 
+A: 0 B: 3 D: 1 E: 4 F: 6 G: 4 
+--------------------------------
+
+Vertex Distance from Source
+A 		 0
+B 		 3
+D 		 1
+E 		 4
+F 		 6
+G 		 4
